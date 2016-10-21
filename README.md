@@ -1,7 +1,6 @@
 # BottomNavigationViewDemo
 
 
-
 ## Introduction
 
 This is a Demo for [BottomNavigationView](https://developer.android.com/reference/android/support/design/widget/BottomNavigationView.html) which make us easily to implement the bottom navigation bar.
@@ -12,9 +11,12 @@ it releases at Android Support Library, revision 25.0.0. So you can add it in bu
 compile 'com.android.support:design:25.0.0'
 ```
 
+
+<img src="image/demo_show.gif" width=300></img>
+
 ## Other
 
-You can find the design style for BottomNavigationView in [here](herehttps://material.google.com/components/bottom-navigation.html#bottom-navigation-specs).
+You can find the design style for BottomNavigationView in [here](https://material.google.com/components/bottom-navigation.html#bottom-navigation-specs).
 
 I hope this demo will be helpful to you.
 
