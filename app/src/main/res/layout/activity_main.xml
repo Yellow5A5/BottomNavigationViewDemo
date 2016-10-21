@@ -7,16 +7,26 @@
     android:layout_height="match_parent"
     tools:context="yellow5a5.bottomnavigationviewdemo.MainActivity">
 
-    <Button
-        android:id="@+id/demo_botton"
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+
+    <android.support.v7.widget.CardView
+        android:layout_centerInParent="true"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_height="66dp"
+        android:layout_alignParentBottom="true"
+        app:cardElevation="3dp">
 
         <android.support.design.widget.BottomNavigationView
             android:id="@+id/demo_navigation"
+            android:layout_gravity="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
             app:menu="@menu/bottom_menu" />
+
+    </android.support.v7.widget.CardView>
 </RelativeLayout>
